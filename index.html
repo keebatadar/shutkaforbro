@@ -4,7 +4,14 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>web-резюме, или че?</title>
     <style>
-
+    #kuko {
+      position: relative;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: auto;
+    }
       html {
 
 background-image: url(tgava.jpg);
@@ -90,7 +97,7 @@ background-size: cover;
        transform: translateY(50px);
        }
        50% {
-       transform: translateY(-2000px);
+       transform: translateY(20px);
        }
 
 
@@ -119,13 +126,6 @@ background-size: cover;
        border-color: #ccd821
        } 
 
-       .full-screen img {
-       display: block;
-       width: 100%;
-       height: auto;
-       margin: auto;
-       }
-
       .abbccc {
       width: 10em;
       height: 1em;
@@ -138,8 +138,8 @@ background-size: cover;
     }
 
     @keyframes spin {
-      30% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      20% { transform: rotate(360deg); }
+      70% { transform: rotate(360deg); }
     }
 
     p {
@@ -150,16 +150,29 @@ background-size: cover;
     </style>
   </head>
   <body>
-
-   <div class="full-screen"><img src="turtles.png" alt="черепашки-ниндзя"></div>
+    <img id="kuko" src="turtles.png">
+    <script>
+      kuko.onclick = function() {0
+        let start = Date.now();
+  
+        let timer = setInterval(function() {
+          let timePassed = Date.now() - start;
+  
+          kuko.style.top = timePassed / 10 + 'px';
+  
+          if (timePassed > 20000) clearInterval(timer);
+  
+        }, 10);
+      }
+    </script>
 
    <audio><source type="audio/mpeg"
-    src="nogold.mp3" /></audio><h1 class="metko" onclick="this.previousSibling.play()">Судьба данного сайта предначертана, он будет уничтожен </h1> 
+    src="nogold.mp3" /></audio><h1 class="metko" onclick="this.previousSibling.play()"> жмякни на логотип черепашек ниндзя сверху </h1> 
   
     <a href="tel:+79956026401"><audio><source type="audio/mpeg"
       src="zoloto.mp3" /></audio><h1 class="bordered-link" onclick="this.previousSibling.play()">нажать чтоб номер получить </h1></a>
   
-    <h2 class="metro"> Усё, удаляю нафек пон да((, смысл то дальше... ну кстати резюме можно здесь написать, .довольно стильно поулчилось, тыры пыры и готово, черепашки-ниндзя круто!!</h2>
+    <h2 class="metro"> лови лови ниндзя черепашки падают ааааа лови летят же ну вот прям щас улетят капец же им будет чтож теперь то делать!!</h2>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><p class="abbccc">РИКРОЛЛ</p></a>
-    <h3 class="metro"> Резюме-веб-визитка, 2 файла мп3, 2 пнг, и один жпг, и один хтмл, в один хтмл стоок уместилосс, круто, только вот ссс файл нужен если хтмл много!! а у меян то один хтмл!! а джава скрипт больше возмоностей добавляет. эххх, вот би на жаве скрипке заделать чонить </h3>
+    <h3 class="metro"> капец, уронил надпись ну вообще ну вот как так а, подымай теперь, ну а как поднять  то ааааа ну всо улетела блин</h3>
 </html>
