@@ -11,11 +11,11 @@
   }
 
   .bordered-kink:hover {
-  border-color: #2bff00
+   border-color: #2bff00
   }
 
   .bordered-kink:active {
-  border-color: #e70c0c
+   border-color: #e70c0c
   } 
 
 
@@ -36,12 +36,12 @@
     background-color: #000000;
     }
 
-  .bordered-link:hover {
-  border-color: #FDD68B
+   .bordered-link:hover {
+     border-color: #FDD68B
   }
 
   .bordered-link:active {
-  border-color: #FEE8BD
+     border-color: #FEE8BD
   }
     
 p {
@@ -60,3 +60,74 @@ p {
      font-weight: bold;
      text-decoration: none;
      }    
+@keyframes bounce {
+  1000% {
+  transform: translateY(50px);
+  }
+  50% {
+  transform: translateY(20px);
+  }
+
+
+}     
+
+
+.metko {
+  display: block;
+  padding: 10%;
+  margin: 1%;
+  border: 6px solid #4afc26;
+  border-radius: 30%;
+  text-align: center;
+  background: rgba(197, 147, 209, 0.842);
+         /* Font styles */
+         color: rgb(43, 255, 0);
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+  .metko:hover {
+  border-color: #d410c4
+  }
+
+  .metko:active {
+  border-color: #ccd821
+  } 
+
+
+
+  .abbccc {
+  
+      
+    width: 30ch;
+    height: 10em;
+    border: 50px solid #8218e6;
+    border-radius: 20px;
+    animation: spin 5s linear infinite;
+    text-align: center;
+    background-color: rgb(42, 219, 36);
+    margin: 0 auto;
+  }
+
+  @keyframes spin {
+    1% { transform: rotate(36deg); }
+    10% { transform: rotate(180deg); }
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+  }
+  
+  #kuko {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+    
+     
+     
+
