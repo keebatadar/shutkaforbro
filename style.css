@@ -51,7 +51,7 @@ p {
 .metro {
   display: inline-block;
   padding: 5%;
-  margin: 7%;
+  margin: 0 auto;
   background: rgba(0, 0, 0, 0.842);
   border-radius: 1em;
   animation: bounce 10s infinite;
@@ -75,7 +75,7 @@ p {
 .metko {
   display: block;
   padding: 10%;
-  margin: 1%;
+  margin: 0 auto;
   border: 6px solid #4afc26;
   border-radius: 30%;
   text-align: center;
@@ -98,25 +98,29 @@ p {
 
   .abbccc {
   
-      
-    width: 30ch;
+    display: block;  
+    width: 10em;
     height: 10em;
-    border: 50px solid #8218e6;
-    border-radius: 20px;
-    animation: spin 5s linear infinite;
+    border: 3em solid #0528ee7e;
+    border-radius: 100%;
     text-align: center;
-    background-color: rgb(42, 219, 36);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgba(252, 1, 1, 0.664);
     margin: 0 auto;
   }
 
-  @keyframes spin {
-    1% { transform: rotate(36deg); }
-    10% { transform: rotate(180deg); }
+  .abbccc:hover {
+    border-color: #2bff00;
   }
 
+  .abbccc:active {
+    border-color: #2bff00;
+  }
+
+  
   p {
-    color: rgb(0, 0, 0);
-    font-style: italic;
+    color: rgb(252, 252, 252);
   }
   
   #kuko {
