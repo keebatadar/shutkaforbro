@@ -58,7 +58,7 @@
   display: block;
   padding: 5%;
   margin: 1 auto;
-  background: rgba(0, 0, 0, 0.842);
+  background: rgba(128, 0, 62, 0.842);
   border-radius: 1em;
   letter-spacing: 4px;
   animation: bounce 2s ease infinite;
